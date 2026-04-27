@@ -64,15 +64,15 @@ export default function Header() {
         </div>
         <div className="flex items-center gap-8">
           <div className="hidden md:flex gap-6">
-            <Link href="#" className="hover:text-gold transition-colors">Students</Link>
-            <Link href="#" className="hover:text-gold transition-colors">Parents</Link>
-            <Link href="#" className="hover:text-gold transition-colors">Alumni</Link>
+            <Link href="/academics" className="hover:text-gold transition-colors">Students</Link>
+            <Link href="https://www.donboscocampuscare.in" target="_blank" className="hover:text-gold transition-colors">Parents</Link>
+            <Link href="/about/history" className="hover:text-gold transition-colors">Alumni</Link>
             <Link href="https://www.donboscocampuscare.in" target="_blank" className="hover:text-gold transition-colors">Parent Portal</Link>
           </div>
           <div className="flex gap-4">
-            <Link href="#" className="hover:text-gold transition-colors"><YoutubeIcon size={14} /></Link>
-            <Link href="#" className="hover:text-gold transition-colors"><FacebookIcon size={14} /></Link>
-            <Link href="#" className="hover:text-gold transition-colors"><InstagramIcon size={14} /></Link>
+            <Link href="https://youtube.com" target="_blank" className="hover:text-gold transition-colors"><YoutubeIcon size={14} /></Link>
+            <Link href="https://facebook.com" target="_blank" className="hover:text-gold transition-colors"><FacebookIcon size={14} /></Link>
+            <Link href="https://instagram.com" target="_blank" className="hover:text-gold transition-colors"><InstagramIcon size={14} /></Link>
           </div>
         </div>
       </div>
